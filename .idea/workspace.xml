@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="388397f3-5810-4483-9ffa-8a4d98b37993" name="Changes" comment="Initial commit" />
+    <list default="true" id="388397f3-5810-4483-9ffa-8a4d98b37993" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Chelyabins_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Chernomorskoe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Izhevsk_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Kaliningrad_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Kaza_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Kirov_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Krim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Lipeck_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Nizhnii_novgorod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Novosibirsk_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Penza_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Perm_paes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/RND_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Samara_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Yfa_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/all_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pars_cities_run/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/dalnii_vostok_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/ekb_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/kaliningrad.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/krd_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pars_cities_run/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc123123.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/vladimir_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pars_cities_run/voronezh_pars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nmarket_pars" beforeDir="false" afterPath="$PROJECT_DIR$/nmarket_pars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nmarket_pars/nmarket_pars/spiders/nmarket_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/nmarket_pars/nmarket_pars/spiders/nmarket_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nmarket_pars/pars.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nmarket_pars/pars1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pars_file/msc.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +66,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nmarket_pars" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,72 +81,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Chelyabins_pars.executor": "Run",
-    "Python.Chernomorskoe.executor": "Run",
-    "Python.Izhevsk_pars.executor": "Run",
-    "Python.Kaliningrad_pars.executor": "Run",
-    "Python.Kaza_pars.executor": "Run",
-    "Python.Kirov_pars.executor": "Run",
-    "Python.Krim.executor": "Run",
-    "Python.Lipeck_pars.executor": "Run",
-    "Python.Nizhnii_novgorod.executor": "Run",
-    "Python.Novosibirsk_pars.executor": "Run",
-    "Python.Parsers.executor": "Run",
-    "Python.Penza_pars.executor": "Run",
-    "Python.Perm_paes.executor": "Run",
-    "Python.RND_pars.executor": "Run",
-    "Python.SBP_login.executor": "Run",
-    "Python.Samara_pars.executor": "Run",
-    "Python.Yfa_pars.executor": "Run",
-    "Python.all_pars.executor": "Run",
-    "Python.classes.executor": "Run",
-    "Python.dalnii_vostok_pars.executor": "Run",
-    "Python.ekb_pars.executor": "Run",
-    "Python.krd_pars.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.msc.executor": "Run",
-    "Python.msc_login.executor": "Run",
-    "Python.nmarket_parser.executor": "Run",
-    "Python.run_parsers.executor": "Run",
-    "Python.vladimir_pars.executor": "Run",
-    "Python.voronezh_pars.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Chelyabins_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chernomorskoe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Izhevsk_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kaliningrad_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kaza_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kirov_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Krim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lipeck_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Nizhnii_novgorod.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Novosibirsk_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Parsers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Penza_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Perm_paes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RND_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SBP_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Samara_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Yfa_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.all_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dalnii_vostok_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ekb_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.krd_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.msc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.msc_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nmarket_parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_parsers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vladimir_pars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.voronezh_pars.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Pars_cities_run" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.classes">
-    <configuration name="Kaliningrad_pars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rielt_bot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pars_cities_run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/Kaliningrad_pars.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.nmarket_parser">
     <configuration name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rielt_bot" />
       <option name="ENV_FILES" value="" />
@@ -125,6 +139,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rielt_bot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pars_cities_run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nmarket_parser" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.msc" />
         <item itemvalue="Python.classes" />
         <item itemvalue="Python.msc_login" />
-        <item itemvalue="Python.Kaliningrad_pars" />
-        <item itemvalue="Python.msc" />
-        <item itemvalue="Python.nmarket_parser" />
       </list>
     </recent_temporary>
   </component>

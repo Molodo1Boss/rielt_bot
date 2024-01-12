@@ -16,9 +16,20 @@ class NMarketParser:
         self.save_path = save_path
         self.driver = None
 
+    def clear_file(self):
+        file_path = os.path.join(self.save_path, self.file_name)
+
+        try:
+            with open(file_path, 'w', encoding="utf-8") as file:
+                file.write('')  # Просто очистим содержимое файла
+            print(f'Файл {self.file_name} успешно очищен.')
+
+        except Exception as e:
+            print(f'Ошибка при очистке файла: {str(e)}. Город {self.city_name}')
+
     def initialize_driver(self):
         chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--headless")
         self.driver = webdriver.Chrome(options=chrome_options)
 
     def login(self):
@@ -32,49 +43,49 @@ class NMarketParser:
         WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.ID, 'login-input')))
         login = self.driver.find_element(By.XPATH, "//input[@id='login-input']")
         password = self.driver.find_element(By.XPATH, "//input[@id='mat-input-1']")
+
         login.send_keys(self.username)
-        print('Авторизация...')
+        print(f'Авторизация.... Город {self.city_name}')
         password.send_keys(self.password)
         login_btn = self.driver.find_element(By.XPATH, "//button[@id='login_username_click']")
         login_btn.click()
 
     def close_advertisement(self):
         try:
-            print(f'Ожидаю появления рекламы...')
+            print(f'Ожидаю появления рекламы... Город {self.city_name}')
             WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//div[@class='popmechanic-close']")))
-            print(f'Реклама появилась. Жду 3 секунды...')
+            print(f'Реклама появилась. Жду 3 секунды... Город {self.city_name}')
             time.sleep(3)
             if EC.presence_of_element_located((By.XPATH, "//div[@class='popmechanic-close']")):
                 close_btn = self.driver.find_element(By.XPATH, "//div[@class='popmechanic-close']")
                 time.sleep(3)
                 close_btn.click()
-                print(f'Закрыл рекламу с классом "popmechanic-close"')
+                print(f'Закрыл рекламу с классом "popmechanic-close". Город {self.city_name}')
 
         except TimeoutException:
-            print(f'Реклама не появилась в течение 10 секунд')
+            print(f'Реклама не появилась в течение 10 секунд. Город {self.city_name}')
 
     def accept_cookies(self):
         try:
             cookies = WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located((By.ID, 'analytics_cookies_consent')))
             cookies.click()
-            print(f'Принял просмотр cookie')
+            print(f'Принял просмотр cookie. Город {self.city_name}')
 
         except TimeoutException:
-            print(f'Не удалось найти кнопку принятия cookie в течение 10 секунд')
+            print(f'Не удалось найти кнопку принятия cookie в течение 10 секунд. Город {self.city_name}')
 
     def navigate_to_resale_tab(self):
-        print(f'Перехожу во вкладку "Ресейл"')
+        print(f'Перехожу во вкладку "Ресейл". Город {self.city_name}')
         resale_btn = self.driver.find_element(By.XPATH, "//html/body/nm-general-header/div/div/ul/li[3]/a")
-        time.sleep(3)
-        resale_btn.click()
+        self.driver.execute_script("arguments[0].click();", resale_btn)
 
     def open_city_tab(self):
-        time.sleep(3)
+        time.sleep(1)
         try:
             button_city = self.driver.find_element(By.CLASS_NAME, "nm-location-btn__text")
             self.driver.execute_script("arguments[0].click();", button_city)
-            print('Открыт список городов')
+            print(f'Открыт список городов. Город {self.city_name}')
             WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "nm-location__list")))
             city_element = self.driver.find_element(By.XPATH,
                                                     f"//button[contains(@class, 'nm-location__link') and contains(text(), '{self.city_name}')]")
@@ -86,9 +97,10 @@ class NMarketParser:
 
     def save_html_to_file(self, html_content):
         file_path = os.path.join(self.save_path, self.file_name)
-        with open(file_path, 'a+', encoding="utf-8") as file:
+
+        with open(file_path, 'a', encoding="utf-8") as file:
             try:
-                file.write(html_content + '\n')  # Добавляем перевод строки после каждого объявления
+                file.write(html_content + '\n\n')  # Добавим пустые строки между объявлениями
             except Exception as e:
                 print(f'Ошибка при записи в файл: {str(e)}')
 
@@ -111,21 +123,10 @@ class NMarketParser:
                 EC.presence_of_element_located((By.XPATH, "//div[@class='object-body__main']"))
             )
 
-            time.sleep(3)
-
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-            time.sleep(3)
-
         else:
             WebDriverWait(self.driver, 50).until(
                 EC.presence_of_element_located((By.XPATH, "//div[@class='object-body__main']"))
             )
-            time.sleep(3)
-
-        WebDriverWait(self.driver, 50).until(
-            EC.presence_of_element_located((By.XPATH, "//div[@class='object-body__main']"))
-        )
 
         new_windows = set(self.driver.window_handles) - set(original_windows)
         if new_windows:
@@ -144,7 +145,7 @@ class NMarketParser:
                 if page_number > 1:
                     button = self.driver.find_element(By.CLASS_NAME, "card-pagination__btn_next")
                     self.driver.execute_script("arguments[0].click();", button)
-                    print(f"\rВыполнен переход на страницу № {page_number}, ожидание загрузки")
+                    print(f"\rВыполнен переход на страницу № {page_number}, ожидание загрузки. Город {self.city_name}")
 
                     WebDriverWait(self.driver, 300).until(
                         EC.presence_of_element_located((By.XPATH,
@@ -173,31 +174,28 @@ class NMarketParser:
                         EC.presence_of_element_located((By.XPATH, "//div[@class='object-body__main']"))
                     )
 
-                    time.sleep(3)
-
                     html_content = self.driver.page_source
-                    print(html_content)
                     self.save_html_to_file(html_content)
 
                     self.driver.close()
                     self.driver.switch_to.window(original_windows[0])
 
-                    print(f'Сохранено объявление № {card_number} на странице {page_number}')
+                    print(f'Сохранено объявление № {card_number} на странице {page_number}. Город {self.city_name}')
                     card_number += 1
 
                 page_number += 1
 
             except (NoSuchElementException, TimeoutException):
-                print('Объявления на странице закончились.')
+                print(f'Объявления на странице закончились. Город {self.city_name}')
                 break
 
             except ElementClickInterceptedException:
-                print(f'Ошибка: Не удалось кликнуть на элемент. Попробуйте другую стратегию.')
+                print(f'Ошибка: Не удалось кликнуть на элемент. Попробуйте другую стратегию. Город {self.city_name}')
                 continue
 
-            print("Сохранение завершено. Файл закрыт.")
+            print(f"Сохранение завершено. Файл закрыт. Город {self.city_name}")
 
-        print("Сохранение завершено. Файл закрыт.")
+        print(f"Сохранение завершено. Файл закрыт. Город {self.city_name}")
 
     def parse_nmarket(self):
         try:
@@ -223,5 +221,5 @@ if __name__ == "__main__":
     save_path = '/home/aleksandr/PycharmProjects/Rielt_bot/Pars_cities_run'
     parser = NMarketParser(username=username, password=password, city_name=city_name, file_name=file_name,
                            save_path=save_path)
-
+    parser.clear_file()
     parser.parse_nmarket()
