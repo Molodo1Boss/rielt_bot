@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="388397f3-5810-4483-9ffa-8a4d98b37993" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/nmarket_pars" beforeDir="false" afterPath="$PROJECT_DIR$/nmarket_pars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pars_file/Воронеж.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Воронеж.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pars_file/Казань.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Казань.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pars_file/Краснодар.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Краснодар.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pars_file/Москва.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Москва.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pars_file/Новосибирск.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Новосибирск.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pars_file/Ростов-на-Дону.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Ростов-на-Дону.html" afterDir="false" />
-    </list>
+    <list default="true" id="388397f3-5810-4483-9ffa-8a4d98b37993" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +30,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+    <option name="RECENT_COMMON_BRANCH" value="bot" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
