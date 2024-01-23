@@ -5,16 +5,21 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, ElementClickInterceptedException
 import time
 import os
+from database.database_manager import DatabaseManager
 
 
 class NMarketParser:
-    def __init__(self, username, password, city_name, file_name, save_path):
+    def __init__(self, username, password, city_name, file_name, save_path, db_manager):
         self.username = username
         self.password = password
         self.city_name = city_name
         self.file_name = file_name
         self.save_path = save_path
         self.driver = None
+        self.db_manager = db_manager
+
+    def save_user_to_database(self, user_data):
+        self.db_manager.save_user_to_database(user_data)
 
     def clear_file(self):
         file_path = os.path.join(self.save_path, self.file_name)
@@ -43,6 +48,7 @@ class NMarketParser:
         WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.ID, 'login-input')))
         login = self.driver.find_element(By.XPATH, "//input[@id='login-input']")
         password = self.driver.find_element(By.XPATH, "//input[@id='mat-input-1']")
+
 
         login.send_keys(self.username)
         print(f'Авторизация.... Город {self.city_name}')
@@ -91,7 +97,7 @@ class NMarketParser:
                                                     f"//button[contains(@class, 'nm-location__link') and contains(text(), '{self.city_name}')]")
             self.driver.execute_script("arguments[0].click();", city_element)
             print(f'Выбран город: {self.city_name}')
-            self.driver.refresh()
+            # self.driver.refresh()
         except NoSuchElementException:
             print(f'Элемент для города {self.city_name} не найден')
 
@@ -174,6 +180,9 @@ class NMarketParser:
                         EC.presence_of_element_located((By.XPATH, "//div[@class='object-body__main']"))
                     )
 
+                    time.sleep(3)
+
+
                     html_content = self.driver.page_source
                     self.save_html_to_file(html_content)
 
@@ -219,7 +228,8 @@ if __name__ == "__main__":
     city_name = 'Москва'
     file_name = 'msc123123.html'
     save_path = '/home/aleksandr/PycharmProjects/Rielt_bot/Pars_cities_run'
+    db_manager = DatabaseManager(host='localhost', user='nmarket', password='10021999', database='your_database')
     parser = NMarketParser(username=username, password=password, city_name=city_name, file_name=file_name,
-                           save_path=save_path)
+                           save_path=save_path, db_manager=db_manager)
     parser.clear_file()
     parser.parse_nmarket()

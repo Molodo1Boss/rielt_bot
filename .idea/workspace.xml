@@ -5,41 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="388397f3-5810-4483-9ffa-8a4d98b37993" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Chelyabins_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Chernomorskoe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Izhevsk_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Kaliningrad_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Kaza_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Kirov_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Krim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Lipeck_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Nizhnii_novgorod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Novosibirsk_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Penza_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Perm_paes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/RND_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Samara_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/Yfa_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/all_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pars_cities_run/classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/dalnii_vostok_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/ekb_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/file.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/kaliningrad.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/krd_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pars_cities_run/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc123123.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/msc_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/vladimir_pars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pars_cities_run/voronezh_pars.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nmarket_pars" beforeDir="false" afterPath="$PROJECT_DIR$/nmarket_pars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nmarket_pars/nmarket_pars/spiders/nmarket_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/nmarket_pars/nmarket_pars/spiders/nmarket_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nmarket_pars/pars.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nmarket_pars/pars1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pars_file/msc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pars_file/Воронеж.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Воронеж.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pars_file/Казань.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Казань.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pars_file/Краснодар.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Краснодар.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pars_file/Москва.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Москва.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pars_file/Новосибирск.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Новосибирск.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pars_file/Ростов-на-Дону.html" beforeDir="false" afterPath="$PROJECT_DIR$/pars_file/Ростов-на-Дону.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +79,13 @@
     &quot;Python.ekb_pars.executor&quot;: &quot;Run&quot;,
     &quot;Python.krd_pars.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_pars.executor&quot;: &quot;Run&quot;,
     &quot;Python.msc.executor&quot;: &quot;Run&quot;,
     &quot;Python.msc_login.executor&quot;: &quot;Run&quot;,
     &quot;Python.nmarket_parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.resale.executor&quot;: &quot;Run&quot;,
     &quot;Python.run_parsers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.vladimir_pars.executor&quot;: &quot;Run&quot;,
     &quot;Python.voronezh_pars.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -121,32 +96,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database" />
       <recent name="$PROJECT_DIR$/Pars_cities_run" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nmarket_parser">
-    <configuration name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rielt_bot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pars_cities_run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/classes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main_pars">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rielt_bot" />
       <option name="ENV_FILES" value="" />
@@ -156,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pars_cities_run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="msc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_pars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rielt_bot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,29 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/msc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="msc_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rielt_bot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pars_cities_run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/msc_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pars_cities_run/main_pars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,13 +167,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="resale" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rielt_bot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/handlers/buy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/handlers/buy/resale.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rielt_bot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.nmarket_parser" />
+        <item itemvalue="Python.main_pars" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.msc" />
-        <item itemvalue="Python.classes" />
-        <item itemvalue="Python.msc_login" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.resale" />
+        <item itemvalue="Python.nmarket_parser" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +301,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704988778799</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1705090037518</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705090037518</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1706015181041</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706015181041</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
